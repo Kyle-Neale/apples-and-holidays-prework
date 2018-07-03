@@ -70,7 +70,7 @@ def all_supplies_in_holidays(holiday_hash)
       new_words << word.capitalize!
       end
       supplies = supplies.join(', ')
-      puts '   ' << new_words.join(' ') << ': ' << supplies
+      puts '  ' << new_words.join(' ') << ': ' << supplies
     end
   end
 end
